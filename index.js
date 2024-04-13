@@ -35,7 +35,7 @@ client.on('ready', async () => {
     const moment = require('moment');
     const created = moment().format('YYYY-MM-DD HH:mm:ss ');
     const change = ['https://cdn.discordapp.com/attachments/1070765609559785583/1227925356971954176/012323315a33400f193ad7706a87c9a8.gif?ex=662a2d9a&is=6617b89a&hm=59ba22b69ee8ef5191b5de3579b4ecf32d09608799d761a74a949aad59e25a3b&']; //รูปใหญ่
-     const poop = ['https://cdn.discordapp.com/emojis/1054409951499526214.gif?size=96&quality=lossless']; // รูปเล็ก
+     const poop = ['https://cdn.discordapp.com/attachments/1070765609559785583/1228424562757337138/34F70009-F28A-452A-A6B2-DB3CF4A056E2.gif?ex=662bfe86&is=66198986&hm=92647b7b3a9d70de8acce56b5474bc854663040c260369ab8ccabf670cdfbc2a&']; // รูปเล็ก
      //const change2 = ['']; // ชื่อสลับ
     const yyyt = ['V.2']; // ชื่อ button2
     const ddds = ['https://discord.gg/JJztgNj9']; // ลิ้ง button1
@@ -49,14 +49,14 @@ iiio[Math.floor(Math.random()*iiio.length)]; // button 1 ใส่ลิ้ง
     const ioii =
 iooi[Math.floor(Math.random()*iooi.length)]; // button 1 ใส่ชื่อ
     //const popp =
-//poop[Math.floor(Math.random()*poop.length)]; // รูปเล็ก
+poop[Math.floor(Math.random()*poop.length)]; // รูปเล็ก
     const ssss = 
 change[Math.floor(Math.random()*change.length)]; // รูปใหญ่
     //const dwada = change2[Math.floor(Math.random()*change2.length)]; // ชื่อสลับคำ
     const r = new Discord.RichPresence()
       .setApplicationId('1112701450150232085')
       .setType('STREAMING')
-      .setURL('https://youtu.be/iO1gLeywGtE?si=V9IJZKkXmsNJiziu')
+      .setURL('https://www.youtube.com/watch?v=ieakCNjTsyE&list=LL&index=46')
       .setState(`Discord`)
       .setName(`🎮`)
       .setDetails(`Happy Songkran Day`)
