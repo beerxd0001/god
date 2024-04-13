@@ -60,7 +60,7 @@ change[Math.floor(Math.random()*change.length)]; // รูปใหญ่
       .setURL('https://www.youtube.com/watch?v=ieakCNjTsyE&list=LL&index=46')
       .setState(`Discord`)
       .setName(`🎮`)
-      .setDetails(`Happy Songkran Day`)
+      .setDetails(`Online`)
       .setAssetsSmallImage(`${popp}`) 
 .setAssetsLargeImage(`${ssss}`)
 .setAssetsLargeText(`🕐 ${getTime()}  ${moment().format(' 📅 DD/MM/YYYY ')}`)
