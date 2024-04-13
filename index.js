@@ -34,14 +34,14 @@ client.on('ready', async () => {
   setInterval(() => {
     const moment = require('moment');
     const created = moment().format('YYYY-MM-DD HH:mm:ss ');
-    const change = ['https://cdn.discordapp.com/attachments/1227927155732774995/1227927385152684093/6CAECF6A-DC7E-47F6-A2EF-A4BD2D48D4EE.gif?ex=662a2f7e&is=6617ba7e&hm=1c4c756420069e4eb68c9d99315055384e4724712270b1f9272cd05942209343&']; //รูปใหญ่
-     //const poop = ['https://cdn.discordapp.com/attachments/1114551993499918438/1122462459710681170/1095697715238797403.gif','https://cdn.discordapp.com/attachments/1114551993499918438/1122462460817977395/1095697740543049819.gif','https://cdn.discordapp.com/attachments/1114551993499918438/1122462460125921341/1095697719189844048.gif','https://cdn.discordapp.com/attachments/1114551993499918438/1116029023957561425/1110570045454696509.gif']; // รูปเล็ก
+    const change = ['https://cdn.discordapp.com/attachments/1070765609559785583/1227925356971954176/012323315a33400f193ad7706a87c9a8.gif?ex=662a2d9a&is=6617b89a&hm=59ba22b69ee8ef5191b5de3579b4ecf32d09608799d761a74a949aad59e25a3b&']; //รูปใหญ่
+     const poop = ['https://cdn.discordapp.com/emojis/1054409951499526214.gif?size=96&quality=lossless']; // รูปเล็ก
      //const change2 = ['']; // ชื่อสลับ
-    const yyyt = ['⪩ kungYuna']; // ชื่อ button2
-    const ddds = ['https://www.instagram.com/yoojiwuw_/?igsh=bHljdTAzMDd1ZzQ1&utm_source=qr']; // ลิ้ง button1
+    const yyyt = ['V.2']; // ชื่อ button2
+    const ddds = ['https://discord.gg/JJztgNj9']; // ลิ้ง button1
 
-   const iooi = ['Join server ᩍ']; // ชื่อ button 1
-   const iiio = ['https://discord.com/invite/jzpRQEb3GY']; // ลิ้ง button 2
+   const iooi = ['Join Server ']; // ชื่อ button 1
+   const iiio = ['https://discord.gg/JJztgNj9']; // ลิ้ง button 2
    const tyyy = yyyt[Math.floor(Math.random()*yyyt.length)]; // ชื่อ button 2
    const sddd = ddds[Math.floor(Math.random()*ddds.length)]; // ลิ้ง button 2
    const oooi = 
@@ -55,11 +55,11 @@ change[Math.floor(Math.random()*change.length)]; // รูปใหญ่
     //const dwada = change2[Math.floor(Math.random()*change2.length)]; // ชื่อสลับคำ
     const r = new Discord.RichPresence()
       .setApplicationId('1112701450150232085')
-      .setType('STREAMING')
-      .setURL('https://www.youtube.com/watch?v=xRzbLQ_WKPs')
+      .setType('YOUTUBE')
+      .setURL('https://youtu.be/iO1gLeywGtE?si=V9IJZKkXmsNJiziu')
       .setState(`Discord`)
       .setName(`🎮`)
-      .setDetails(`っ My puppy  Dm 24/7 I love you 3000`)
+      .setDetails(`Happy Songkran Day`)
       //.setAssetsSmallImage(`${popp}`) 
 .setAssetsLargeImage(`${ssss}`)
 .setAssetsLargeText(`🕐 ${getTime()}  ${moment().format(' 📅 DD/MM/YYYY ')}`)
