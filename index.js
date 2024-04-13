@@ -1,3 +1,4 @@
+
 const { Client, Intents } = require('discord.js-selfbot-v13');
 const Discord = require('discord.js-selfbot-v13');
 const readline = require('readline-sync');
@@ -34,8 +35,8 @@ client.on('ready', async () => {
   setInterval(() => {
     const moment = require('moment');
     const created = moment().format('YYYY-MM-DD HH:mm:ss ');
-    const change = ['https://cdn.discordapp.com/attachments/1070765609559785583/1227925356971954176/012323315a33400f193ad7706a87c9a8.gif?ex=662a2d9a&is=6617b89a&hm=59ba22b69ee8ef5191b5de3579b4ecf32d09608799d761a74a949aad59e25a3b&']; //รูปใหญ่
-     const poop = ['https://cdn.discordapp.com/attachments/1070765609559785583/1228424562757337138/34F70009-F28A-452A-A6B2-DB3CF4A056E2.gif?ex=662bfe86&is=66198986&hm=92647b7b3a9d70de8acce56b5474bc854663040c260369ab8ccabf670cdfbc2a&']; // รูปเล็ก
+    const change = ['https://cdn.discordapp.com/attachments/1070765609559785583/1228594533210787850/100DCA6B-5C4A-4E11-B016-A16E4A3D16A3.gif?ex=662c9cd2&is=661a27d2&hm=0429fdc665f58720e0d9c732dfb6428f7a27f9fef5b4082a4161356d043d078b&']; //รูปใหญ่
+     const poop = ['https://cdn.discordapp.com/attachments/1070765609559785583/1228594553242648596/C9E1BD5B-9CC5-4197-AE97-61D2D429D8C4.gif?ex=662c9cd7&is=661a27d7&hm=ab33a0b8bf100d27364d45c93f0055bfd88029eba62deea0fa3dbc3108170860&']; // รูปเล็ก
      //const change2 = ['']; // ชื่อสลับ
     const yyyt = ['V.2']; // ชื่อ button2
     const ddds = ['https://discord.gg/JJztgNj9']; // ลิ้ง button1
@@ -48,7 +49,7 @@ client.on('ready', async () => {
 iiio[Math.floor(Math.random()*iiio.length)]; // button 1 ใส่ลิ้ง
     const ioii =
 iooi[Math.floor(Math.random()*iooi.length)]; // button 1 ใส่ชื่อ
-    //const popp =
+    const popp =
 poop[Math.floor(Math.random()*poop.length)]; // รูปเล็ก
     const ssss = 
 change[Math.floor(Math.random()*change.length)]; // รูปใหญ่
@@ -60,7 +61,7 @@ change[Math.floor(Math.random()*change.length)]; // รูปใหญ่
       .setState(`Discord`)
       .setName(`🎮`)
       .setDetails(`Happy Songkran Day`)
-      //.setAssetsSmallImage(`${popp}`) 
+      .setAssetsSmallImage(`${popp}`) 
 .setAssetsLargeImage(`${ssss}`)
 .setAssetsLargeText(`🕐 ${getTime()}  ${moment().format(' 📅 DD/MM/YYYY ')}`)
 .setAssetsSmallText(`ping : ${Math.round(client.ws.ping)}`)
@@ -104,4 +105,3 @@ let options = {
   function getTime() {
     return (new Date()).toLocaleString([], options).split(" ")[1].replaceAll(",", "");
           }	
-
