@@ -55,7 +55,7 @@ change[Math.floor(Math.random()*change.length)]; // รูปใหญ่
     //const dwada = change2[Math.floor(Math.random()*change2.length)]; // ชื่อสลับคำ
     const r = new Discord.RichPresence()
       .setApplicationId('1112701450150232085')
-      .setType('YOUTUBE')
+      .setType('STREAMING')
       .setURL('https://youtu.be/iO1gLeywGtE?si=V9IJZKkXmsNJiziu')
       .setState(`Discord`)
       .setName(`🎮`)
