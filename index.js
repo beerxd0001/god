@@ -43,8 +43,8 @@ client.on('ready', async () => {
 
     const iooi = ['💦  My Gang 🌊']; // ชื่อ button 1
     const iiio = ['']; // ลิ้ง button 2
-    // const tyyy = yyyt[Math.floor(Math.random()*yyyt.length)]; // ชื่อ button 2
-    // const sddd = ddds[Math.floor(Math.random()*ddds.length)]; // ลิ้ง button 2
+    const tyyy = yyyt[Math.floor(Math.random()*yyyt.length)]; // ชื่อ button 2
+    const sddd = ddds[Math.floor(Math.random()*ddds.length)]; // ลิ้ง button 2
     const oooi = 
   iiio[Math.floor(Math.random()*iiio.length)]; // button 1 ใส่ลิ้ง
     const ioii =
