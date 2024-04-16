@@ -43,7 +43,7 @@ client.on('ready', async () => {
 
    const iooi = ['Join Server ']; // ชื่อ button 1
    const iiio = ['https://discord.gg/JJztgNj9']; // ลิ้ง button 2
-   const tyyy = yyyt[Math.floor(Math.random()*yyyt.length)]; // ชื่อ button 2
+   //const tyyy = yyyt[Math.floor(Math.random()*yyyt.length)]; // ชื่อ button 2
    //const sddd = ddds[Math.floor(Math.random()*ddds.length)]; // ลิ้ง button 2
    const oooi = 
 iiio[Math.floor(Math.random()*iiio.length)]; // button 1 ใส่ลิ้ง
