@@ -38,11 +38,11 @@ client.on('ready', async () => {
     const change = ['https://cdn.discordapp.com/attachments/1070765609559785583/1229121789779775529/45BA2E07-5067-4AF2-BCF0-FFC32FCE5E24.gif?ex=662e87de&is=661c12de&hm=3a7a395bf095f8dc672dc946be2cb34ae49d9ead4b135bc1ddea6d7dff103cea&']; //รูปใหญ่
     const poop = ['https://cdn.discordapp.com/emojis/1047868285829525564.gif?size=96&quality=lossless']; // รูปเล็ก
     const change2 = ['']; // ชื่อสลับ
-    const yyyt = ['']; // ชื่อ button2
+    const yyyt = ['💦  My Gang 🌊']; // ชื่อ button2
     const ddds = ['https://discord.gg/JJztgNj9']; // ลิ้ง button1
 
     const iooi = ['💦  My Gang 🌊']; // ชื่อ button 1
-    const iiio = ['']; // ลิ้ง button 2
+    const iiio = ['https://discord.gg/JJztgNj9']; // ลิ้ง button 2
     const tyyy = yyyt[Math.floor(Math.random()*yyyt.length)]; // ชื่อ button 2
     const sddd = ddds[Math.floor(Math.random()*ddds.length)]; // ลิ้ง button 2
     const oooi = 
