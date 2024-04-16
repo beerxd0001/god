@@ -42,7 +42,7 @@ client.on('ready', async () => {
     const ddds = ['https://discord.gg/JJztgNj9']; // ลิ้ง button1
 
     const iooi = ['💦  My Gang 🌊']; // ชื่อ button 1
-    const iiio = ['https://discord.gg/JJztgNj9']; // ลิ้ง button 2
+    const iiio = ['']; // ลิ้ง button 2
     const tyyy = yyyt[Math.floor(Math.random()*yyyt.length)]; // ชื่อ button 2
     const sddd = ddds[Math.floor(Math.random()*ddds.length)]; // ลิ้ง button 2
     const oooi = 
